@@ -1,0 +1,48 @@
+# bofangqi
+Jquery+html5制作手机端网页视频播放器代码
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="willesPlay">
+    <div class="playHeader">
+        <div class="videoName">Tara - 懂的那份感觉</div>
+    </div>
+    <div class="playContent">
+        <div class="turnoff">
+            <ul>
+                <li><a href="javascript:;" title="喜欢" class="glyphicon glyphicon-heart-empty"></a></li>
+                <li><a href="javascript:;" title="关灯" class="btnLight on glyphicon glyphicon-sunglasses"></a></li>
+                <li><a href="javascript:;" title="分享" class="glyphicon glyphicon-share"></a></li>
+            </ul>
+        </div>
+        <video width="100%" height="100%" id="playVideo">
+            <source src="http://220.167.105.121/170/2/11/acloud/151672/letv.v.yinyuetai.com/he.yinyuetai.com/uploads/videos/common/6609014F06AE1C8E99DE142502A2B157.flv?crypt=95aa7f2e98550&b=1314&nlh=3072&nlt=45&bf=6000&p2p=1&video_type=flv&termid=0&tss=no&geo=CN-23-323-1&platid=0&splatid=0&its=0&qos=5&fcheck=0&proxy=3062324601,2101603530,3683272595&uid=3063271287.rp&keyitem=GOw_33YJAAbXYE-cnQwpfLlv_b2zAkYctFVqe5bsXQpaGNn3T1-vhw..&ntm=1447949400&nkey=55c24f4c47dd315085c383e07750f67e&nkey2=3344c026a5c147651522c75bc51fb700&sc=0e90a16b75f7bc55&br=3136&vid=782863&aid=1559&area=KR&vst=0&ptp=mv&rd=yinyuetai.com?sc=0e90a16b75f7bc55&errc=0&gn=1065&buss=106551&cips=182.149.207.119&lersrc=MTI1Ljg5Ljc0LjE3MQ==&tag=yinyuetai&cuhost=letv.v.yinyuetai.com&cuid=151672&flw3x=0&sign=coopdown&fext=.flv&br=3136&ptp=mv&rd=yinyuetai.com" type="video/mp4"></source>
+            当前浏览器不支持 video直接播放，点击这里下载视频： <a href="/">下载视频</a>
+        </video>
+        <div class="playTip glyphicon glyphicon-play"></div>
+    </div>
+    <div class="playControll">
+        <div class="playPause playIcon"></div>
+        <div class="timebar">
+            <span class="currentTime">0:00:00</span>
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                </div>
+            <span class="duration">0:00:00</span>
+        </div>
+        <div class="otherControl">
+            <span class="volume glyphicon glyphicon-volume-down"></span>
+            <span class="fullScreen glyphicon glyphicon-fullscreen"></span>
+            <div class="volumeBar">
+                    <div class="volumewrap">
+                        <div class="progress">
+                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 8px;height: 40%;"></div>
+                    </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
